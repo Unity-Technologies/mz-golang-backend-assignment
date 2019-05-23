@@ -1,0 +1,5 @@
+sequenceDiagram
+    participant Client 1
+    participant Hub
+    Client 1->>Hub: Who is here?
+    Hub->>Client 1: 2 and 3

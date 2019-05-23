@@ -1,0 +1,8 @@
+sequenceDiagram
+    participant Client 1
+    participant Client 2
+    participant Client 3
+    participant Hub
+    Client 1->>Hub: Send foobar to 2 and 3
+    Hub->>Client 2: foobar
+    Hub->>Client 3: foobar
