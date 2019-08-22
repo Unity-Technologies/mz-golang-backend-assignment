@@ -1,8 +1,8 @@
 package test
 
 import (
-	"github.com/Applifier/golang-backend-assignment/internal/client"
-	"github.com/Applifier/golang-backend-assignment/internal/server"
+	"github.com/Applifier/golang-backend-assignment/pkg/client"
+	"github.com/Applifier/golang-backend-assignment/pkg/server"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 	"net"
